@@ -1,4 +1,4 @@
-# FreightHub UI Coding Challenge
+# FreightHub Frontend Coding Challenge
 
 Welcome to the user interface coding challenge. Fork this repository and follow the instructions below.
 

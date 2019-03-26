@@ -7,16 +7,17 @@ Your goal is to set up a react application, where the customer is able to list a
 Business need
 ===
 
-The main objective of this list is for the customer to check all the shipments in progress at a glance. This allows users to take faster decisions and plan ahead of time.
+The main goal of the list is for the customer to check all the shipments in progress at a glance. This allows users to take faster decisions and plan ahead of time.
 
 Providing information to the customer increases transparency and reduces communication issue.
 
 Use cases
 ===
 
-- The customer shall be able to see all the available shipments in pages of 20 elements per page.
-- The customer shall be able to search for shipments and sort by different fields.
-- The customer shall be able to see the position of the shipments on a map.
+- The user shall be able to see all the available shipments in pages of 20 elements per page.
+- The user shall be able to search for shipment id and sort by different fields.
+- The user shall be able to see the shipment information on a shipment details page
+- The user shall be able to update the shipment name
 
 The interactions should not refresh the page.
 
@@ -28,10 +29,12 @@ You can use any libraries, task runners and build processors. React and Javascri
 Server side
 ===
 
-The boilerplate includes a small service for data fetching. db.json includes all the necessary data to achieve the goal. Please follow the steps below to start the server:
+The boilerplate includes a small service for data fetching. `db.json` includes all the necessary data to achieve the goal. Please follow the steps below to start the server:
 
+```
 yarn or npm install .
 yarn start or npm start
+```
 
 —— ADD TABLE WITH ENDPOINTS —— 
 
@@ -43,5 +46,6 @@ Push the application to your github account and send the link to your contact pe
 
 Please check [json-server](https://github.com/typicode/json-server) —  for more information.
 
-Good luck.
+Good luck,
+The FreightHub Team
 

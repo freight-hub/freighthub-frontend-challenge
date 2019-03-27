@@ -1,7 +1,9 @@
+**Do not share this file with the candidate**
+
 Frontend Challenge Criteria
 ===
 
-***Must Have***
+**Must Have**
 
 - The application must start
 - The application must be a Single Page Application
@@ -10,7 +12,7 @@ Frontend Challenge Criteria
 - The file structure must be consistent and easy to follow
 - The list and details page work with minor issues
 
-***Nice to Have***
+**Nice to Have**
 
 - The application should be configurable by environment variables
 - The application should support code splitting
@@ -24,7 +26,7 @@ Frontend Challenge Criteria
 - The application has a development and production environment
 - Hot reload is added
 
-***Negative Points***
+**Negative Points**
 
 - No componentization
 - No modularization

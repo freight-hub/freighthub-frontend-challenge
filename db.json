@@ -5,11 +5,11 @@
         "cargo": [{
             "type": "Fabric",
             "description": "1000 Blue T-shirts",
-            "volum": "2"
+            "volume": "2"
         }, {
             "type": "Fabric",
             "description": "2000 Green T-shirts",
-            "volum": "3"
+            "volume": "3"
         }],
         "mode": "sea",
         "type": "FCL",
@@ -27,11 +27,11 @@
         "cargo": [{
             "type": "Furniture",
             "description": "300 Tables",
-            "volum": "20"
+            "volume": "20"
         }, {
             "type": "Furniture",
             "description": "1500 Chairs",
-            "volum": "15"
+            "volume": "15"
         }],
         "mode": "sea",
         "type": "FCL",
@@ -52,7 +52,7 @@
         "cargo": [{
             "type": "Bikes model 27X",
             "description": "100 Bikes model 27X",
-            "volum": "100"
+            "volume": "100"
         }],
         "mode": "air",
         "type": "LCL",

@@ -2,22 +2,22 @@
 
 Welcome to the frontend coding challenge. Fork this repository and follow the instructions below.
 
-Your goal is to set up an application, where the admin is able to manage shipments.
+Your goal is to set up an application, where the user is able to manage shipments.
 
 Business need
 ===
 
-The main goal is for the admin to check the shipments at a glance. This allows admins to take faster decisions and plan ahead of time.
+The main goal is for the user to check the shipments at a glance. This allows users to take faster decisions and plan ahead of time.
 
 Providing information to the customer increases transparency and reduces communication issue.
 
 Use cases
 ===
 
-- The admin shall be able to see shipments in pages of 20 elements per page.
-- The admin shall be able to search for shipment id and sort by different fields.
-- The admin shall be able to see the shipment information on a shipment details page
-- The admin shall be able to update the shipment name
+- The user shall be able to see shipments in pages of 20 elements per page.
+- The user shall be able to search for shipment id and sort by different fields.
+- The user shall be able to see the shipment information on a shipment details page
+- The user shall be able to update the shipment name
 
 The interactions should not refresh the page.
 

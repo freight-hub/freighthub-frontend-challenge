@@ -1,6 +1,6 @@
 # FreightHub Frontend Coding Challenge
 
-Welcome to the frontend coding challenge. Fork this repository and follow the instructions below.
+Welcome to the frontend coding challenge. Clone this repository and follow the instructions below.
 
 Your goal is to set up an application, where the user is able to manage shipments.
 
@@ -41,7 +41,11 @@ Please check [json-server](https://github.com/typicode/json-server) for more inf
 Deliveries
 ===
 
-Push the application to your github account and send the link to your contact person.
+- Clone this repository.
+- Complete your project as described above within your local repository.
+- Ensure everything you want to commit is committed.
+- Create a git bundle: ```git bundle create your_name.bundle --all```
+- Email the bundle file to your point of contact.
 
 Good luck,
 The FreightHub Team

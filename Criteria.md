@@ -1,5 +1,3 @@
-**Do not share this file with the candidate**
-
 Frontend Challenge Criteria
 ===
 

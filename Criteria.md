@@ -7,13 +7,13 @@ Frontend Challenge Criteria
 
 - The application must start
 - The application must be a Single Page Application
-- The application must include tests
 - The application must be divided into components
 - The file structure must be consistent and easy to follow
 - The list and details page work with minor issues
 
 **Nice to Have**
 
+- The application must include tests
 - The application should be configurable by environment variables
 - The application should support code splitting
 - The application should have good namings
@@ -33,4 +33,3 @@ Frontend Challenge Criteria
 - Inline CSS
 - No control over re-rendering (For example not using id for a list)
 - Bad naming
-- No Styling

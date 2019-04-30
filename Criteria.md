@@ -10,10 +10,10 @@ Frontend Challenge Criteria
 - The application must be divided into components
 - The file structure must be consistent and easy to follow
 - The list and details page work with minor issues
+- The application must include tests
 
 **Nice to Have**
 
-- The application must include tests
 - The application should be configurable by environment variables
 - The application should support code splitting
 - The application should have good namings

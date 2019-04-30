@@ -20,7 +20,7 @@ Frontend Challenge Criteria
 - A component library is created
 - Typescript is used
 - Cross browser techniques
-- Styles should be shipped separatelly
+- Styles should be shipped separately
 - The application has a development and production environment
 - Hot reload is added
 

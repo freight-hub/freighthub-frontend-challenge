@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination__item {
+  list-style: none;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  min-width: 30px;
+  border-radius: 3px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.pagination__item a {
+  outline: none; 
+}
+
+.pagination__item--active {
+  color: #20A6C4;
+  border: 1px solid grey;
+}

@@ -1,0 +1,17 @@
+.input {
+  height: 30px;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  outline: none; 
+}
+
+.input--margin-bottom {
+  margin-bottom: 6px;
+}
+
+.input--margin-right {
+  margin-right: 6px;
+}

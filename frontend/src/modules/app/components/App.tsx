@@ -1,27 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Provider, connect } from 'unistore/react'
+import React from 'react'
+import { ListContainer } from "../../list/components/List.container";
+import { DetailContainer } from "../../detail/components/Detail.container";
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export const App: React.FC<{
+  view: 'list' | 'detail'
+}> = ({ view }) =>
 
-export default App;
+  view === 'list' ?
+  <ListContainer /> :
+
+  view === 'detail' ?
+  <DetailContainer /> :
+
+  null

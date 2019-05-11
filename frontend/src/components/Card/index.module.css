@@ -1,0 +1,25 @@
+.card {
+  padding: 6px;
+  border: 1px solid #EBEBEB;
+  position: relative;
+  border-radius: 3px;
+  color: #4C4C4C;
+}
+
+.card--clickable {
+  padding-right: 30px;
+}
+
+.card--margin-bottom {
+  margin-bottom: 6px;
+}
+
+
+.card__arrow {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 0;
+  fill: currentColor;
+}

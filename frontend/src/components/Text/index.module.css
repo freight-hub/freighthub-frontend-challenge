@@ -1,0 +1,42 @@
+.text {
+  line-height: 21px;
+  color: #4C4C4C;
+}
+
+.text--big {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.text--small {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--secondary {
+  color: #B4B4B4;
+}
+
+.text--inline {
+  display: inline;
+}
+
+.text--primary {
+  color: #20A6C4;
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+}
+
+.text--margin-right {
+  margin-right: 6px;
+}
+
+.text--margin-left {
+  margin-left: 6px;
+}

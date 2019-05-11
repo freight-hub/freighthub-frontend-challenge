@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 36px;
+}
+
+.row--border-top {
+  border-top: 1px solid #EBEBEB;
+}
+
+.row--small {
+  height: 20px;
+}
+
+.row--margin-top {
+  margin-top: 6px;
+}
+
+.row--margin-bottom {
+  margin-bottom: 6px;
+}

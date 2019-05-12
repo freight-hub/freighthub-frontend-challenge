@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
 import { Provider, connect } from 'unistore/react'
-import store, { defaultState } from '../store';
-import { App } from './App';
+import store from '../store';
+import { App } from './';
+import { AppState } from '../state';
 
-const AppConnected = connect((state: defaultState) => ({
+const AppConnected = connect((state: AppState) => ({
   view: state.view
 }))(App)
 

@@ -90,6 +90,19 @@ module.exports = function(webpackEnv) {
           // https://github.com/facebook/create-react-app/issues/2677
           ident: 'postcss',
           plugins: () => [
+            require('postcss-import')({
+              resolve(id, basedir) {
+                if (/^@freighthub/.test(id)) {
+                  return path.resolve('src', id.slice(12))
+                }
+        
+                // resolve node_modules, @import '~normalize.css/normalize.css', similar to how css-loader's handling of node_modules
+                if (/^~/.test(id)) return path.resolve('./node_modules', id)
+        
+                // resolve relative path, @import './components/style.css'
+                return path.resolve(basedir, id)
+              }
+            }),
             require('postcss-flexbugs-fixes'),
             require('postcss-preset-env')({
               autoprefixer: {
@@ -272,6 +285,7 @@ module.exports = function(webpackEnv) {
         // Support React Native Web
         // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
         'react-native': 'react-native-web',
+        '@freighthub': paths.appSrc,
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding

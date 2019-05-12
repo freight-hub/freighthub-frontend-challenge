@@ -1,5 +1,5 @@
 import { DetailState } from "../state";
-import { ListState } from "../../list/state";
+import { ListState } from "modules/list/state";
 
 export const resetName = (state: ListState & DetailState): DetailState => ({
   ...state,

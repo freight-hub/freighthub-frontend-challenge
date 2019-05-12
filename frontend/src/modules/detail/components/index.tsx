@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import { Card } from '../../../components/Card';
-import { Text } from '../../../components/Text';
-import { Header } from '../../../components/Header';
-import { List } from '../../../components/List';
-import { Row } from '../../../components/Row';
-import { ShipmentInterface } from '../../list/shipment.interface';
-import { Input } from '../../../components/Input';
-import { Button } from '../../../components/Button';
+import { Card } from '@freighthub/components/Card';
+import { Text } from '@freighthub/components/Text';
+import { Header } from '@freighthub/components/Header';
+import { List } from '@freighthub/components/List';
+import { Row } from '@freighthub/components/Row';
+import { ShipmentInterface } from 'modules/list/shipment.interface';
+import { Input } from '@freighthub/components/Input';
+import { Button } from '@freighthub/components/Button';
 
 export const Detail: React.FC<{
   item: ShipmentInterface,

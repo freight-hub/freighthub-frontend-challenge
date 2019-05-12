@@ -2,7 +2,7 @@ import React from 'react'
 import { ReactComponent as LeftArrow } from './left-arrow.svg'
 import classNames from 'classnames';
 import cssClasses from './index.module.css'
-import { Text } from '../Text';
+import { Text } from '@freighthub/components/Text';
 
 export const Header: React.FC<{
   title?: string;

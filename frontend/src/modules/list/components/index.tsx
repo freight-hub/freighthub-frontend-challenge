@@ -1,12 +1,12 @@
 import { ShipmentInterface } from "../shipment.interface";
-import { List as BaseList } from "../../../components/List";
-import { Input } from "../../../components/Input";
-import { Row } from "../../../components/Row";
-import { Button } from "../../../components/Button";
-import { Card } from "../../../components/Card";
-import { Text } from '../../../components/Text';
-import { ReactComponent as Sort } from '../../../icons/sort.svg'
-import { Pagination } from '../../../components/Pagination';
+import { List as BaseList } from "@freighthub/components/List";
+import { Input } from "@freighthub/components/Input";
+import { Row } from "@freighthub/components/Row";
+import { Button } from "@freighthub/components/Button";
+import { Card } from "@freighthub/components/Card";
+import { Text } from '@freighthub/components/Text';
+import { ReactComponent as Sort } from '@freighthub/icons/sort.svg'
+import { Pagination } from '@freighthub/components/Pagination';
 import React from 'react';
 
 export const List: React.FC<{

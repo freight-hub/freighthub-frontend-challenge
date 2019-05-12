@@ -1,8 +1,8 @@
-import { Detail } from "./Detail";
+import { Detail } from "./";
 import { connect } from "unistore/react";
 import { onClickBack } from "../actions/on-click-back";
 import { DetailState } from "../state";
-import { ShipmentInterface } from "../../list/shipment.interface";
+import { ShipmentInterface } from "modules/list/shipment.interface";
 import { onChangeName } from "../actions/on-change-name";
 import { saveName } from "../actions/save-name";
 import { toggleNameUpdate } from "../actions/toggle-name-update";

@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import * as serviceWorker from './serviceWorker';
-import AppContainer from './modules/app/components/App.container';
+import AppContainer from 'modules/app/components/container';
 
 ReactDOM.render(<AppContainer />, document.getElementById('root'));
 

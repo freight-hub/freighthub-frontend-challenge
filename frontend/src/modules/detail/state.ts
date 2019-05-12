@@ -1,4 +1,4 @@
-import { ShipmentInterface } from "../list/shipment.interface";
+import { ShipmentInterface } from "modules/list/shipment.interface";
 
 export const DetailState = {
   Detail: {

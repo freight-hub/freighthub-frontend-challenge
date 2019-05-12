@@ -1,8 +1,8 @@
-import { defaultState } from "../../app/store";
-import { DetailState } from "../../detail/state";
+import { AppState } from "modules/app/state";
+import { DetailState } from "modules/detail/state";
 import { ShipmentInterface } from "../shipment.interface";
 
-export const openShipment = (state: defaultState, shipment: ShipmentInterface): defaultState & DetailState => ({
+export const openShipment = (state: AppState, shipment: ShipmentInterface): AppState & DetailState => ({
   ...state,
   view: 'detail',
   Detail: {

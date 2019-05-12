@@ -7,7 +7,7 @@ import { ListState } from '../state';
 import { ShipmentInterface } from '../shipment.interface';
 import { setCurrentPage } from '../actions/set-current-page';
 import { getFilteredAndSortedShipments } from '../selectors/get-filtered-and-sorted-shipments';
-import { List } from './List';
+import { List } from './';
 import { getSortFunction } from '../utils/get-sort-function';
 import { onChangeSearch } from '../actions/on-change-search';
 

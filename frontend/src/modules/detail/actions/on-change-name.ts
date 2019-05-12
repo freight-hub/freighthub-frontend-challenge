@@ -1,4 +1,4 @@
-import { ListState } from "../../list/state";
+import { ListState } from "modules/list/state";
 import { DetailState } from "../state";
 
 export const onChangeName = (state: DetailState & ListState, e: React.ChangeEvent<HTMLInputElement>): DetailState => {

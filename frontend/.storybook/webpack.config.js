@@ -1,21 +1,19 @@
-const path = require("path");
-const SRC_PATH = path.join(__dirname, '../src');
+const baseConfig = require('../config/webpack.config.js');
 
 //dont need stories path if you have your stories inside your //components folder
-module.exports = ({config}) => {
-  config.module.rules.push({
-    test: /\.(ts|tsx)$/,
-    include: [SRC_PATH],
-      use: [
-        {
-          loader: require.resolve('awesome-typescript-loader'),
-          options: {
-            configFileName: './.storybook/tsconfig.json'
-          }
-        },
-        { loader: require.resolve('react-docgen-typescript-loader') }
-      ]
-  });
-  config.resolve.extensions.push('.ts', '.tsx');
-  return config;
+module.exports = (webpackEnv) => {
+  const config = baseConfig('development');
+  webpackEnv.config.module.rules.splice(2, 1);
+  webpackEnv.config.resolve.extensions.push('.tsx');
+  webpackEnv.config.resolve.alias = {
+    ...webpackEnv.config.resolve.alias,
+    ...config.resolve.alias
+  };
+  webpackEnv.config.module.rules = [
+    ...webpackEnv.config.module.rules,
+    config.module.rules[2].oneOf[1],
+    config.module.rules[2].oneOf[4],
+  ]
+
+  return webpackEnv.config;
 };

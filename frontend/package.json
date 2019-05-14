@@ -7,6 +7,8 @@
     "@storybook/addon-knobs": "^5.0.11",
     "@storybook/react": "^5.0.11",
     "@svgr/webpack": "4.1.0",
+    "@types/enzyme": "^3.9.2",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "24.0.12",
     "@types/node": "12.0.0",
     "@types/react": "^16.8.17",
@@ -44,11 +46,11 @@
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "^1.1.0",
-    "jest": "24.7.1",
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.7.1",
     "jest-watch-typeahead": "0.3.0",
     "mini-css-extract-plugin": "0.5.0",
+    "npm-run-all": "^4.1.5",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.2.1",
     "postcss-flexbugs-fixes": "4.1.0",
@@ -69,6 +71,7 @@
     "semver": "6.0.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.3",
+    "ts-jest": "^24.0.2",
     "ts-pnp": "1.1.2",
     "typescript": "3.4.5",
     "unistore": "https://github.com/LPVua/unistore.git#3.4.2",
@@ -79,10 +82,13 @@
     "workbox-webpack-plugin": "4.2.0"
   },
   "scripts": {
+    "install": "cd ../ && npm install",
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
     "test": "node scripts/test.js --coverage",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "components": "start-storybook -p 9001 -c .storybook",
+    "build": "npm-run-all --parallel build:*",
+    "build:frontend": "node scripts/build.js && serve -s build",
+    "build:backend": "cd ../ && npm start"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -100,6 +106,17 @@
     ]
   },
   "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json",
+        "enableTsDiagnostics": true
+      }
+    },
+    "transform": {
+      ".tsx?": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "preset": "ts-jest",
+    "collectCoverage": true,
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
       "!src/**/*.d.ts"
@@ -122,10 +139,15 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
       "^.+\\.module\\.(css|sass|scss)$"
     ],
-    "modulePaths": [],
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ],
+    "modulePaths": ["<rootDir>/src"],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
-      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+      "^@freighthub/(.*)$": "<rootDir>/src/$1"
     },
     "moduleFileExtensions": [
       "web.js",
@@ -150,6 +172,9 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.0.11"
+    "@storybook/addon-actions": "^5.0.11",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
+    "jest": "^24.7.1"
   }
 }

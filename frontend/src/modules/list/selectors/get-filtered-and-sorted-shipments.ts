@@ -1,6 +1,9 @@
 import { ShipmentInterface } from "../shipment.interface";
 import { ListState } from "../state";
 
+/**
+ * Get list of filtered and sorted shipments
+ */
 export const getFilteredAndSortedShipments = (
   state: ListState,
   filterFunction: (shipment: ShipmentInterface, index: number) => boolean,

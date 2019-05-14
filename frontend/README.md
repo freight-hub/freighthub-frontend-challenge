@@ -1,44 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FreightHub Frontend Coding Challenge
 
-## Available Scripts
+This is a frontend part of shipping management application.
 
-In the project directory, you can run:
+## Table of contents
+- [Configuration](#configuration)
+- [Installation](#installation)
+- [Build](#build)
+- [Test](#test)
+- [User guide](#user-guide)
+- [Application components](#application-components)
+- [TODO](#todo)
 
-### `npm start`
+## Configuration
+Configuration options can be changed in `.env` file
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
+In order to install the application, execute 
+```sh
+npm install
+```
+This will install frontend and backend part of a project
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Build
+In order to build a project in a production environment, execute 
+```sh
+npm run build
+```
+Your app will be served under `http://localhost:5000`. Your API would be served `http://localhost:8000/shipments`
 
-### `npm test`
+## Test
+To run tests, execute
+```sh
+npm run test
+```
+Coverage report in HTML format would be generated under `coverage/lcov-report`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User guide
+To filter order by id start typing in Search by ID input. Your results will be immediately filtered. The filtering is case independent and will filter order which will contain filter text in it's id.
 
-### `npm run build`
+Shipping list has multiple sorting options: - `TODO`
+ - By name
+ - By id
+ - By active status
+ - By completed status
+ - Default (in order, returned by API)
+To sort list by one of those options, click on sort button at the top of a list and select sorting options from menu.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can click on shipping card in order to see shipping details. On details page you can also update shipping name. To do so click on `Update Name` button next to shipping name. You should then see a form with one input. Click on that input and update shipping name. To save your changes press save button. To revert your changes press cancel button.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Application components
+To generate list of application components, execute
+```sh
+npm run components
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## TODO
+ - Enhance tablet and desktop UI
+ - COVER ALL CODEBASE WITH TESTS. Example test cases can be found at `frontend/src/modules/list/actions/get-shipments.test.ts`, `frontend/src/components/Button/index.test.tsx`
+ - Fix an issue with coverage of custom modules and custom paths
+ - Configure coverage to work with custom modules
+ - When clicked on `Update Name` button place caret in input automatically.
+ - Freeze package versions
+ - Configure linter and follow code style (I prefer google style guide)
+ - Extract shared interfaces into common module

@@ -1,33 +1,32 @@
-Frontend Challenge Criteria
-===
+# Frontend Challenge Criteria
 
-**Must Have**
+## Must Have
 
 - The application must start
 - The application must be a Single Page Application
 - The application must be divided into components
 - The file structure must be consistent and easy to follow
-- The list and details page work with minor issues
-- The application must include tests
+- The list and details page must work with minor issues
+- The application must include meaningful tests
 
-**Nice to Have**
+## Nice to Have
 
-- The application should be configurable by environment variables
-- The application should support code splitting
-- The application should have good namings
-- The application should compute values
-- The application should be responsive
+- The application is configurable by environment variables
+- The application has a development and production environment
+- The application supports code splitting
+- The application has good naming
+- The application computes values
+- The application is responsive
 - A component library is created
 - Typescript is used
-- Cross browser techniques
-- Styles should be shipped separately
-- The application has a development and production environment
+- Cross-browser techniques are implemented
+- Styles are shipped separately
 - Hot reload is added
 
-**Negative Points**
+## Negative Points
 
 - No componentization
 - No modularization
-- Inline CSS
-- No control over re-rendering (For example not using id for a list)
+- Inline styles
+- No control over re-rendering (e.g. not using id for a list)
 - Bad naming

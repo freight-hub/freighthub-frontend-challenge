@@ -18,7 +18,7 @@
 - The application computes values
 - The application is responsive
 - A component library is created
-- Typescript is used
+- TypeScript is used
 - Cross-browser techniques are implemented
 - Styles are shipped separately
 - Hot reload is added

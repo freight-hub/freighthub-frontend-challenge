@@ -21,7 +21,7 @@ The interactions should not refresh the page.
 
 ## Technology requirements
 
-You can use any libraries, task runners and build processors. **React** and **Javascript** are the only hard requirements. ES6 and Typescript are highly encouraged, as well as MST and MobX if needed.
+You can use any libraries, task runners and build processors. **React** and **JavaScript** are the only hard requirements. ES6 and TypeScript are highly encouraged, as well as MST and MobX if needed.
 
 **We will not accept any submissions using view libraries/frameworks other than React.**
 
@@ -31,7 +31,7 @@ The full criteria for evaluating the coding challenge can be found [here](./Crit
 
 ## Server-side
 
-The boilerplate includes a small service for data fetching. `db.json` includes all the necessary data to achieve the goal. Please follow the steps below to start the server:
+The boilerplate includes a small service for data fetching. The file `db.json` includes all the necessary data to achieve the goal. Please follow the steps below to start the server:
 
 ```
 yarn or npm install .
@@ -50,7 +50,7 @@ Check [json-server](https://github.com/typicode/json-server) for more informatio
 - Create a git bundle: `git bundle create your_name.bundle --all`
 - Email the bundle file to your point of contact.
 
-**Please refrain from uploading your solution to public repository hosting services such as GitHub and Bitbucket.**
+**In order to be fair to all candidates, please refrain from sharing your solution on public repository hosting services such as GitHub and Bitbucket.**
 
 Good luck,  
 The FreightHub Team

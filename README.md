@@ -1,6 +1,6 @@
 # FreightHub Frontend Coding Challenge
 
-Welcome to the FreightHub frontend coding challenge. Please read the following instructions carefully.
+Welcome to the FreightHub frontend coding challenge! Please read the following instructions carefully.
 
 **Your goal is to set up an application which enables the user to view and manage shipments.**
 
@@ -23,7 +23,7 @@ The interactions should not refresh the page.
 
 You can use any libraries, task runners and build processors. **React** and **JavaScript** are the only hard requirements. ES6 and TypeScript are highly encouraged, as well as MST and MobX if needed.
 
-**We will not accept any submissions using view libraries/frameworks other than React.**
+**Submissions using view libraries/frameworks other than React will not be accepted.**
 
 ## Criteria
 
@@ -52,5 +52,9 @@ Check [json-server](https://github.com/typicode/json-server) for more informatio
 
 **In order to be fair to all candidates, please refrain from sharing your solution on public repository hosting services such as GitHub and Bitbucket.**
 
-Good luck,  
+## Time limit
+
+There is no hard time limit for this coding challenge. However, we believe that 3-4 hours is sufficient for the must-have parts of the application. While we appreciate all the effort put into the challenge, we also do not want to take up too much of your time. Our advice is to focus on making sure that the application works properly and has some tests before moving on to secondary objectives. Happy coding!
+
+Good luck,
 The FreightHub Team

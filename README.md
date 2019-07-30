@@ -41,7 +41,7 @@ The full criteria for evaluating the coding challenge can be found [here](./Crit
 # How to submit?
 
 - Clone this repository.
-- A restful api is provided with the challenge. To run follow [How to run api server?](##how-to-run-api-server)
+- A restful api is provided with the challenge. To run follow [How to run api server?](#how-to-run-api-server)
 - Complete your project as described above within your local repository.
 - Ensure everything you want to commit is committed.
 - Create a git bundle: `git bundle create your_name.bundle --all`

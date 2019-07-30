@@ -2,6 +2,8 @@
 
 Welcome to the FreightHub frontend coding challenge! Please read the following instructions carefully.
 
+**Your goal is to set up an application which enables the user to view and manage shipments.**
+
 # Contents
 
 -   [Business Needs](#business--needs)
@@ -14,8 +16,6 @@ Welcome to the FreightHub frontend coding challenge! Please read the following i
 -   [Server Side](##server--side)
 
 # Business need
-
-**Your goal is to set up an application which enables the user to view and manage shipments.**
 
 The main goal is for the user to check the shipments at a glance. This allows users to take faster decisions and plan ahead of time.
 

@@ -6,7 +6,7 @@
 - The application must be a Single Page Application
 - The application must be divided into components
 - The file structure must be consistent and easy to follow
-- The list and details page must cover all [*use cases*](https://github.com/freight-hub/freighthub-frontend-challenge#use-cases) with minor issues
+- The list and details page must cover all [*use cases*](README.md#use-cases) with minor issues
 - The application must include meaningful tests
 
 ## Nice to Have

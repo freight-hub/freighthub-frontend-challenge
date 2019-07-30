@@ -11,8 +11,8 @@ Welcome to the FreightHub frontend coding challenge! Please read the following i
 -   [Evaluation criteria](#evaluation-criteria)
     -   [Technology requirements](#technology-requirements)
     -   [Code requirements](https://github.com/freight-hub/freighthub-frontend-challenge/blob/master/Criteria.md#must-have)
--   [How to submit?](#how-to-submit)
--   [Server Side](#how-to-run-api-server)
+-   [How to submit](#how-to-submit)
+-   [How to run API server](#how-to-run-api-server)
 -   [Time limit](#time-limit)
 
 # Business need
@@ -41,7 +41,7 @@ The full criteria for evaluating the coding challenge can be found [here](./Crit
 # How to submit
 
 - Clone this repository.
-- A RESTful API for `shipments` is provided with the challenge. To run follow [How to run api server?](#how-to-run-api-server)
+- A RESTful API for `shipments` is provided with the challenge. To run follow: [How to run API server?](#how-to-run-api-server)
 - Complete your project as described above within your local repository.
 - Ensure everything you want to commit is committed.
 - Please make sure that there are scripts to start both the server and the client.

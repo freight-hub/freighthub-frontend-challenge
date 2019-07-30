@@ -13,7 +13,7 @@ Welcome to the FreightHub frontend coding challenge! Please read the following i
     -   [Criteria](https://github.com/freight-hub/freighthub-frontend-challenge/blob/master/Criteria.md#must-have)
 -   [Time limit](#time-limit)
 -   [How to submit?](#how-to-submit)
--   [Server Side](#server-side)
+-   [Server Side](#how-to-run-api-server)
 
 # Business need
 
@@ -41,7 +41,7 @@ The full criteria for evaluating the coding challenge can be found [here](./Crit
 # How to submit?
 
 - Clone this repository.
-- A restful api is provided with the challenge. To run follow [How to run api server?](##how--server)
+- A restful api is provided with the challenge. To run follow [How to run api server?](##how-to-run-api-server)
 - Complete your project as described above within your local repository.
 - Ensure everything you want to commit is committed.
 - Create a git bundle: `git bundle create your_name.bundle --all`

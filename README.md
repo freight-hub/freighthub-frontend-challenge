@@ -6,14 +6,14 @@ Welcome to the FreightHub frontend coding challenge! Please read the following i
 
 # Contents
 
--   [Business Needs](#business-needs)
+-   [Business need](#business-need)
 -   [Use cases](#use-cases)
--   [Evaluation Criteria](#evaluation-criteria)
-    -   [Technology Requirements](#technology-requirements)
-    -   [Code Requirements](https://github.com/freight-hub/freighthub-frontend-challenge/blob/master/Criteria.md#must-have)
--   [Time limit](#time-limit)
+-   [Evaluation criteria](#evaluation-criteria)
+    -   [Technology requirements](#technology-requirements)
+    -   [Code requirements](https://github.com/freight-hub/freighthub-frontend-challenge/blob/master/Criteria.md#must-have)
 -   [How to submit?](#how-to-submit)
 -   [Server Side](#how-to-run-api-server)
+-   [Time limit](#time-limit)
 
 # Business need
 
@@ -32,16 +32,16 @@ The interactions should not refresh the page.
 
 # Technology requirements
 
-**React** and **JavaScript** are mandatory requirements. Apart from this,  you can use any libraries, task runners and build processors. ES6 and TypeScript are highly encouraged, as well as MST and MobX if needed.
+**React** and **JavaScript** are mandatory requirements. Apart from this,  you can use any libraries, task runners and build processors. ES6 and TypeScript are highly encouraged.
 
-# Evaluation Criteria
+# Evaluation criteria
 
 The full criteria for evaluating the coding challenge can be found [here](./Criteria.md).
 
-# How to submit?
+# How to submit
 
 - Clone this repository.
-- A restful api for `shipments` is provided with the challenge. To run follow [How to run api server?](#how-to-run-api-server)
+- A RESTful API for `shipments` is provided with the challenge. To run follow [How to run api server?](#how-to-run-api-server)
 - Complete your project as described above within your local repository.
 - Ensure everything you want to commit is committed.
 - Please make sure that there are scripts to start both the server and the client.
@@ -50,7 +50,7 @@ The full criteria for evaluating the coding challenge can be found [here](./Crit
 
 **In order to be fair to all candidates, please refrain from sharing your solution on public repository hosting services such as GitHub and Bitbucket.**
 
-# How to run api server?
+# How to run API server
 
 The boilerplate includes a small service for data fetching. The file `db.json` includes all the necessary data to achieve the goal. Please follow the steps below to start the server:
 

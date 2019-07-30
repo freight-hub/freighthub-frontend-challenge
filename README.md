@@ -30,11 +30,13 @@ Providing information to the customer increases transparency and reduces communi
 
 The interactions should not refresh the page.
 
-# Technology requirements
+# Evaluation Criteria
 
-**React** and **JavaScript** are mandatory requirements. Apart from this,  you can use any libraries, task runners and build processors. ES6 and TypeScript are highly encouraged.
+## Technology requirements
 
-# Evaluation criteria
+**React** and **JavaScript** are mandatory requirements. Apart from this, you can use any libraries, task runners and build processors. ES6 and TypeScript are highly encouraged.
+
+## Code criteria
 
 The full criteria for evaluating the coding challenge can be found [here](./Criteria.md).
 

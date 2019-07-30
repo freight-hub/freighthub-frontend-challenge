@@ -10,7 +10,7 @@ Welcome to the FreightHub frontend coding challenge! Please read the following i
 -   [Use cases](#use-cases)
 -   [Evaluation Criteria](#evaluation-criteria)
     -   [Technology Requirements](#technology-requirements)
-    -   [Criteria](https://github.com/freight-hub/freighthub-frontend-challenge/blob/master/Criteria.md#must-have)
+    -   [Code Requirements](https://github.com/freight-hub/freighthub-frontend-challenge/blob/master/Criteria.md#must-have)
 -   [Time limit](#time-limit)
 -   [How to submit?](#how-to-submit)
 -   [Server Side](#how-to-run-api-server)

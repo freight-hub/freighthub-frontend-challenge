@@ -58,7 +58,7 @@ The boilerplate includes a small service for data fetching. The file `db.json` i
 
 ```
 yarn or npm install .
-yarn start or npm start
+yarn server or npm run server
 ```
 
 Check [json-server](https://github.com/typicode/json-server) for more information.

@@ -6,14 +6,14 @@ Welcome to the FreightHub frontend coding challenge! Please read the following i
 
 # Contents
 
--   [Business Needs](#business--needs)
--   [Use cases](#use--cases)
--   [Evaluation Criteria](#evaluation--criteria)
-    -   [Technology Requirements](#technology--requirements)
+-   [Business Needs](#business-needs)
+-   [Use cases](#use-cases)
+-   [Evaluation Criteria](#evaluation-criteria)
+    -   [Technology Requirements](#technology-requirements)
     -   [Criteria](https://github.com/freight-hub/freighthub-frontend-challenge/blob/master/Criteria.md#must-have)
--   [Time limit](##time--limit)
--   [How to submit?](#how--submit)
--   [Server Side](##server--side)
+-   [Time limit](#time-limit)
+-   [How to submit?](#how-to-submit)
+-   [Server Side](#server-side)
 
 # Business need
 

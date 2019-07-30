@@ -36,7 +36,7 @@ The interactions should not refresh the page.
 
 **React** and **JavaScript** are mandatory requirements. Apart from this, you can use any libraries, task runners and build processors. ES6 and TypeScript are highly encouraged.
 
-## Code criteria
+## Code requirements
 
 The full criteria for evaluating the coding challenge can be found [here](./Criteria.md).
 

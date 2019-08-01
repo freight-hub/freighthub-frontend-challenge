@@ -23,14 +23,16 @@ Providing information to the customer increases transparency and reduces communi
 
 # Use cases
 
-- The user shall be able to see shipments in pages of 20 elements per page.
-- The user shall be able to search for shipment id and sort by different fields.
-- The user shall be able to see the shipment information on a shipment details page.
-- The user shall be able to update the shipment name.
+- The user shall be able to:
+  - See shipments in pages of 20 elements per page
+  - Search by shipment id
+  - Sort by different fields (e.g. id, name) in ascending/descending order
+  - View the shipment information on a separate shipment details page
+  - Update the shipment name (should persist when the page is reloaded)
 
 The interactions should not refresh the page.
 
-# Evaluation Criteria
+# Evaluation criteria
 
 ## Technology requirements
 
@@ -43,10 +45,10 @@ The full criteria for evaluating the coding challenge can be found [here](./Crit
 # How to submit
 
 - Clone this repository.
-- A RESTful API for `shipments` is provided with the challenge. To run follow: [How to run API server?](#how-to-run-api-server)
+- A RESTful API for `shipments` is provided with the challenge. To run, follow: [How to run API server](#how-to-run-api-server)
 - Complete your project as described above within your local repository.
-- Ensure everything you want to commit is committed.
-- Please make sure that there are scripts to start both the server and the client.
+- Make sure that there are scripts to start both the server and the client.
+- Ensure everything you want to commit is committed (or else your code will not be included the bundle).
 - Create a git bundle: `git bundle create your_name.bundle --all`
 - Email the bundle file to your point of contact.
 

@@ -7,7 +7,7 @@
 - The application must be divided into components
 - The file structure must be consistent and easy to follow
 - The list and details page must cover all [use cases](README.md#use-cases) with minor issues
-- The application must include tests which validate logic or component behavior (The built-in test from Create React App does not count, and neither do snapshot tests)
+- The application must include meaningful tests (Tests that do not validate logic or component behavior, e.g. snapshot tests, are not counted)
 
 ## Nice to Have
 

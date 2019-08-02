@@ -48,7 +48,7 @@ The full criteria for evaluating the coding challenge can be found [here](./Crit
 - A RESTful API for `shipments` is provided with the challenge. To run, follow: [How to run API server](#how-to-run-api-server)
 - Complete your project as described above within your local repository.
 - Make sure that there are scripts to start both the server and the client.
-- Ensure everything you want to commit is committed (or else your code will not be included the bundle).
+- Ensure everything you want to commit is committed before you bundle.
 - Create a git bundle: `git bundle create your_name.bundle --all`
 - Email the bundle file to your point of contact.
 

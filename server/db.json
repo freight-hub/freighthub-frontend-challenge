@@ -2,7 +2,7 @@
   "shipments": [
     {
       "id": "S1000",
-      "name": "T-shirts(Summer2018) from Shanghai to Hamburg",
+      "name": "T-shirts(Summer2018) from Shangh",
       "cargo": [
         {
           "type": "Fabric",
@@ -12,7 +12,7 @@
         {
           "type": "Fabric",
           "description": "2000 Green T-shirts",
-          "volume": "3"
+          "volume": "2"
         }
       ],
       "mode": "sea",

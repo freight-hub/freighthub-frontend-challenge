@@ -1,0 +1,14 @@
+{
+  "name": "freighthub-frontend-challenge-server",
+  "version": "1.0.0",
+  "description": "FreightHub Frontend Coding Challenge API",
+  "main": "index.js",
+  "author": "FreightHub Recruiting Team",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}

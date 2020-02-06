@@ -7,7 +7,7 @@
 - The application must be divided into components
 - The file structure must be consistent and easy to follow
 - The list and details page must cover all [use cases](README.md#use-cases) with minor issues
-- The application must include meaningful tests (Tests that do not validate logic or component behavior, e.g. snapshot tests, are not counted)
+- The application must include meaningful tests (meaningful tests validate logic or component behavior; superficial tests like snapshot tests, or tests that just validate if a component renders are not accepted)
 
 ## Nice to Have
 
